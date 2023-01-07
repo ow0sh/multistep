@@ -1,0 +1,21 @@
+@layer {
+  .validated {
+    @apply w-full h-[50px] rounded-lg font-default font-bold focus:outline-none;
+    color: hsl(213, 96%, 18%) !important;
+    border-width: 1px !important;
+    padding-left: 10px !important;
+    font-family: 'Ubuntu', sans-serif !important;
+  }
+  .error {
+    @apply w-full h-[50px] rounded-lg font-default font-bold focus:outline-none;
+    color: hsl(213, 96%, 18%) !important;
+    border-width: 1px !important;
+    border-color: red;
+    padding-left: 10px !important;
+    font-family: 'Ubuntu', sans-serif !important;
+  }
+
+  .span {
+    @apply font-default text-marine-blue;
+  }
+}
