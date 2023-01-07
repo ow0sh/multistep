@@ -11,11 +11,11 @@ import Final from '../components/steps/final';
 
 export default function Home() {
   const steps = [
-    <Step1 changeStep={changeStep} />,
-    <Step2 changeStep={changeStep} />,
-    <Step3 changeStep={changeStep} />,
-    <Step4 changeStep={changeStep} />,
-    <Final />,
+    <Step1 changeStep={changeStep} key={'step1'} />,
+    <Step2 changeStep={changeStep} key={'step2'} />,
+    <Step3 changeStep={changeStep} key={'step3'} />,
+    <Step4 changeStep={changeStep} key={'step4'} />,
+    <Final key={'final'} />,
   ];
   const [currentStep, setCurrentStep] = useState(0);
 
